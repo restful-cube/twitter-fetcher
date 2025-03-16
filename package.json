@@ -1,0 +1,17 @@
+{
+  "name": "twitter-fetcher",
+  "version": "1.0.0",
+  "description": "A simple command-line tool to fetch tweets from any Twitter user",
+  "main": "fetch-tweets.ts",
+  "scripts": {
+    "start": "ts-node fetch-tweets.ts"
+  },
+  "dependencies": {
+    "@the-convocation/twitter-scraper": "^0.2.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
